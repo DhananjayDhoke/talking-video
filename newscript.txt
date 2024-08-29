@@ -1,0 +1,3 @@
+python inference.py --checkpoint_path checkpoint/wav2lip_gan.pth --face v1.mp4 --audio audio.mp3 
+
+python inference.py --driven_audio <audio.wav> --source_image <video.mp4 or picture.png> --enhancer gfpgan
